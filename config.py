@@ -7,21 +7,21 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("API_ID","22766050"))
+API_HASH = getenv("API_HASH","092af0023f22b00248071887b1a74efa")
 
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN","6024133735:AAH0UzFDlJX55D2gI7LRqPiaapEV5XHTXH0")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ᴀɴᴏɴ ダ ᴍᴜsɪᴄ")
+MONGO_DB_URI = getenv("MONGO_DB_URI","mongodb+srv://marvel:marvel@marvelcloud0.gse7lpr.mongodb.net/?retryWrites=true&w=majority")
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID","-1001909086764"))
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ᴀᴊ ダ ᴍᴜsɪᴄ")
 
-OWNER_ID = list(map(int, getenv("OWNER_ID", "1356469075").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "1918307166").split()))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://t.me/Darlzzz bots")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://t.me/Darlzzzbots")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
@@ -30,8 +30,8 @@ SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/TeenuSupport")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "180"))
-SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180"))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "1000"))
+SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "1000"))
 
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
 AUTO_LEAVE_ASSISTANT_TIME = int(
@@ -58,7 +58,7 @@ TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "104857600"))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824"))
 # https://www.gbmb.org/mb-to-bytes
 
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("BABPb6l0oLvvG63Tv7vGpoEVs3X2ijENrQ2CjRPJv4lLInP77grMek1v2iX--iE17Qq3_VoPUK9ypzPhNNicn562-7IVKvyIF7hZPS-37IXjaDINol9Ugk6oWhJlPVIkcSxjrT3poYkE45bhW03vNZIrM-NYwcxRJxhg7p23YaNq7M29CsySsa1zT8C-1eA-p8dGi0h5-wtEEnIEakU5GkWu333XbYFLJDfeExVJn-4cyycDhIP-kUy1xoFyZ-p8bh_7b-NMun09GgC_PgjmwM8jMLHOSiBF-RJVf1w5gRTlOdLKMbzrWalE-kAjIXXs_vCbW3XET9TttlXF1ikGNuiLAAAAAXARQaMA"
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -87,7 +87,7 @@ PLAYLIST_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
 
 GLOBAL_IMG_URL = "https://te.legra.ph/file/e906c2def5afe8a9b9120.jpg"
 
-STATS_IMG_URL = "https://te.legra.ph/file/e906c2def5afe8a9b9120.jpg"
+STATS_IMG_URL = "https://te.legra.ph/file/14a1e72312af8c4a067c2.jpg"
 
 TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
 
